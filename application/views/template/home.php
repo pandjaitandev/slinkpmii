@@ -60,7 +60,7 @@
     <div class="container-fluid d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="<?=base_url()?>"><span>PMII<B class="text-primary">GO</B></span></a></h1>
+        <h1 class="text-light"><a href="<?=base_url()?>"><span>PMII<B class="text-info">GO</B></span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="<?=base_url()?>"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -85,7 +85,7 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <h1 class="text-dark">Jadikan semua lebih sederhana</h1>
-          <h2 class="text-primary">
+          <h2 class="text-info">
               Bidang Internal PC PMII Kota Malang<br>
               <?= $total_link ?> url Telah disederhanakan.<br> 
               <?= $total_hits ?> total klik 
