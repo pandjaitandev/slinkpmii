@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UPTGO | Short Link UPT Pelatihan Dinas Koperasi dan UKM Jawa Timur</title>
+  <title>UPT GO | Short Link UPT Pelatihan Dinas Koperasi dan UKM Jawa Timur</title>
   <meta content="Shortlink asli buatan UPT Pelatihan Dinas Koperasi dan UKM Jawa Timur" name="descriptison">
   <meta content="Pusat Belajar Koperasi dan UKM" name="keywords">
 
-  <meta name="title" content="UPTGO | UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
+  <meta name="title" content="UPT GO | UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
   <meta name="description" content="Shortlink UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
   <meta name="image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf">
 
@@ -70,6 +70,7 @@
           <li class="active"><a href="#header">Beranda</a></li>
           <li><a href="http://uptdiklatukm.diskopukm.jatimprov.go.id/">Website</a></li>
           <li><a href="http://sijawara.diskopukm.jatimprov.go.id/">SiJawara</a></li>
+          <li><a href="http://uptkukm.id/">UPT Gate</a></li>
           <li class="get-started"><a href="http://wa.me/+6281331220006">Call Center</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -84,7 +85,11 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <h1 class="text-dark">Jadikan semua lebih sederhana</h1>
-          <h2 class="text-primary">Dari UPT untuk Koperasi dan UKM</h2>
+          <h2 class="text-primary">
+              Dari UPT untuk Koperasi dan UKM<br>
+              <?= $total_link ?> url Telah disederhanakan.<br> 
+              <?= $total_hits ?> total klik 
+          </h2>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/hero.png" class="img-fluid animated" alt="">
@@ -122,57 +127,6 @@
   
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact" data-aos="fade-up" data-aos-delay="100">
-            <h3>BikinKarya <br> Creative Media</h3>
-            <p>
-              Jl. Danau Lindu 1, C3 I15 <br>
-              Perumahan Sawojajar, Kedungkandang<br>
-              Kota Malang <br><br>
-              <strong>Phone:</strong> <a href="http://wa.me/+6281231390340">081 231 390 340</a><br>
-              <strong>Email:</strong> official.bikinkarya@gmail.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="200">
-            <h4>Mitra Kami</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://ika-unisma.or.id">Ika-Unisma</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://sidodadi-blitar.desa.id">Desa Sidodadi Blitar</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://adz-dzikri.or.id">Adz Dzikri Indonesia</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://gerakandesabangkit.or.id">Gerakan Desa Bangkit</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://ptdanendra.co.id">PT Danendra Untung Abadi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="http://api.or.id">Aliansi Petani Indonesia</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
-            <h4>Layanan Kami</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Desain</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Programming</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Content Writing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Training</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
-            <h4>Sosial Media Kami</h4>
-            <p>Temukan kami di platform sosial media kami :</p>
-            <div class="social-links mt-3">
-              <a href="http://twitter.com/bikinkarya" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="http://fb.com/bikinkarya" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="http://instagram.com/bikinkarya" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div> -->
-
     <div class="container py-4">
       <div class="copyright">
         &copy; Copyright <strong><span>Tim IT UPT (FIF/US)</span></strong>. All Rights Reserved

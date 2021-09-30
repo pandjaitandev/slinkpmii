@@ -20,5 +20,28 @@ class Link_m extends CI_Model {
 	  $this->db->insert('tb_link',$params);
 	}
 
+	function countTotalLink()
+	{
+		$this->db->from("tb_link");
+		$query = $this->db->get()->num_rows();
+		return $query;
+	}
+
+	function countTotalHits()
+	{
+		$this->db->from("tmp_link_hits");
+		$query = $this->db->get()->num_rows();
+		return $query;
+	}
+
+	function saveHits($link)
+	{		  
+	  $params['id'] =  "";	    
+	  $params['ip'] =  $this->input->ip_address();	  
+	  $params['link_id'] =  $link;	  
+	  $params['created'] =  date("Y-m-d H:i:sa");	  
+	  $this->db->insert('tmp_link_hits',$params);
+	}
+
 
 }

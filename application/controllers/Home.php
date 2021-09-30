@@ -10,15 +10,19 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$this->load->library('form_validation');
-		$this->templateadmin->load('template/home','page/home');
+		$data['total_link'] = $this->link_m->countTotalLink();
+		$data['total_hits'] = $this->link_m->countTotalHits();
+		$this->templateadmin->load('template/home','page/home',$data);
 	}
 
 	public function go()
 	{
 		$kode =  $this->uri->segment(1);
 		$link = $this->link_m->get_url($kode)->row("link");
+		$link_id = $this->link_m->get_url($kode)->row("id");
 
 		if ($link != null) {
+			$this->link_m->saveHits($link_id);
 			redirect($link);
 		} else {
 			redirect('');
@@ -43,8 +47,10 @@ class Home extends CI_Controller {
 		$this->form_validation->set_error_delimiters('<span class="badge badge-danger">', '</span>');
 
 		if ($this->form_validation->run() == FALSE) {
-				$this->templateadmin->load('template/home','page/home');
-    } else {        
+			$data['total_link'] = $this->link_m->countTotalLink();
+			$data['total_hits'] = $this->link_m->countTotalHits();
+			$this->templateadmin->load('template/home','page/home',$data);
+    	} else {        
         $post = $this->input->post(null, TRUE);
 
         $this->link_m->simpan($post);
