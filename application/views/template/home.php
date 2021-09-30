@@ -5,26 +5,26 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UPT GO | Short Link UPT Pelatihan Dinas Koperasi dan UKM Jawa Timur</title>
-  <meta content="Shortlink asli buatan UPT Pelatihan Dinas Koperasi dan UKM Jawa Timur" name="descriptison">
-  <meta content="Pusat Belajar Koperasi dan UKM" name="keywords">
+  <title>PMII GO | Short Link EPMII</title>
+  <meta content="Shortlink asli buatan PC PMII Kota Malang" name="descriptison">
+  <meta content="Shortlink asli buatan PC PMII Kota Malang" name="keywords">
 
-  <meta name="title" content="UPT GO | UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
-  <meta name="description" content="Shortlink UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
-  <meta name="image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf">
+  <meta name="title" content="PMII GO | E Movement PC PMII Kota Malang">
+  <meta name="description" content="Sederhanakan Link PC PMII Kota Malang">
+  <!-- <meta name="image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf"> -->
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://go.uptkukm.id/">
-  <meta property="og:title" content="UPTGO | UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
-  <meta property="og:description" content="Shortlink UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
+  <meta property="og:title" content="PMIIGO | PMII Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
+  <meta property="og:description" content="Shortlink PMII Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
   <meta property="og:image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://go.uptkukm.id/">
-  <meta property="twitter:title" content="UPTGO | UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
-  <meta property="twitter:description" content="Shortlink UPT Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
+  <meta property="twitter:url" content="https://go.PMIIkukm.id/">
+  <meta property="twitter:title" content="PMIIGO | PMII Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
+  <meta property="twitter:description" content="Shortlink PMII Pelatihan Dinas Koperasi dan UKM Provinsi Jawa Timur">
   <meta property="twitter:image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf">
 
   <!-- Favicons -->
@@ -60,18 +60,18 @@
     <div class="container-fluid d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="<?=base_url()?>"><span>UPT<B class="text-primary">GO</B></span></a></h1>
+        <h1 class="text-light"><a href="<?=base_url()?>"><span>PMII<B class="text-primary">GO</B></span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="<?=base_url()?>"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Beranda</a></li>
+<!--           <li class="active"><a href="#header">Beranda</a></li>
           <li><a href="http://uptdiklatukm.diskopukm.jatimprov.go.id/">Website</a></li>
           <li><a href="http://sijawara.diskopukm.jatimprov.go.id/">SiJawara</a></li>
           <li><a href="http://uptkukm.id/">UPT Gate</a></li>
-          <li class="get-started"><a href="http://wa.me/+6281331220006">Call Center</a></li>
+ -->          <li class="get-started"><a href="http://wa.me/+6285157000915">Call Center</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -86,7 +86,7 @@
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <h1 class="text-dark">Jadikan semua lebih sederhana</h1>
           <h2 class="text-primary">
-              Dari UPT untuk Koperasi dan UKM<br>
+              Bidang Internal PC PMII Kota Malang<br>
               <?= $total_link ?> url Telah disederhanakan.<br> 
               <?= $total_hits ?> total klik 
           </h2>
@@ -106,7 +106,7 @@
           <form action="<?= base_url('simpan')?>" method="post" class="php-email-form">           
             <div class="form-group">
               <label for="name">Kode</label>
-              <input type="text" class="form-control" name="kode" value="<?= set_value('kode'); ?>" placeholder="Ex: dokumen-upt" required/>
+              <input type="text" class="form-control" name="kode" value="<?= set_value('kode'); ?>" placeholder="Ex: ketumsai" required/>
               <?php echo form_error('kode')?>
             </div>
             <div class="form-group">
@@ -129,7 +129,7 @@
   <footer id="footer">
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Tim IT UPT (FIF/US)</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Bidang Internal</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
